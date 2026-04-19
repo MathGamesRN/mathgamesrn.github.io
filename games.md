@@ -1,0 +1,210 @@
+# web ports
+
+- [Amanda The Adventurer](https://github.com/genizy/web-port/tree/main/amanda-the-adventurer) - Ported by [bread](https://github.com/genizy)
+- [Andy's Apple Farm](https://github.com/genizy/web-port/tree/main/andys-apple-farm) - Ported by [bread](https://github.com/genizy)
+- [Angry Birds Epic v3.0.1](https://github.com/DarkTerraYT/EpicWeb)
+- [Antonblast](https://github.com/web-ports/antonblast) - port by [burnedpopcorn](https://github.com/burnedpopcorn)
+- [A Difficult Game About Climbing](https://github.com/web-ports/adgac) - port by [bread](https://github.com/genizy)
+- [Apotheon](https://github.com/degloved-net/Apotheon) - port by [gurtmuncher](https://github.com/gurtmuncher)
+- [Approaches](https://github.com/wasm-com/Approaches-web) - port by [shayder](https://github.com/shayderrr)
+- [Arco](https://github.com/degloved-net/arco) - port by [cirsius](https://github.com/cirsius)
+- [Balatro](https://github.com/W0W53R/web-balatro) - port by [W0W53R](https://github.com/W0W53R)
+- [Baldi's Basics Birthday Bash](https://github.com/woahhcrackers/BirthdayBashWeb) - port by [crackers](https://github.com/woahhcrackers)
+- [Baldi's Basics Classic Remastered](https://github.com/genizy/web-port/tree/main/baldi-remaster) - Ported by [koi/_flixel](https://oldgrounds.xyz/)
+- [Baldi's Basics Plus](https://github.com/genizy/web-port/tree/main/baldi-plus) - Ported by [koi/_flixel](https://oldgrounds.xyz/), updated by [bread](https://github.com/genizy)
+- [Baldi's Basics: Minus 3](https://github.com/aukak/-3) - port by [bog/aukak](https://github.com/aukak)
+- [Bat to Bed Demo](https://github.com/gays-studio/BatToBed-DEMO-webport) - port by [aj](https://github.com/ajtabjs)
+- [Bat to the Heavens](https://github.com/gays-studio/bat-to-the-heavens)- port by [aj](https://github.com/ajtabjs)
+- Beatblock - port by bog
+- [Bendy and The Ink Machine](https://github.com/woahhcrackers/BATIMWeb), [2](https://github.com/slqntdevss/BATIMFullPort), [3](https://github.com/genizy/web-port/tree/main/bendy), [4](https://github.com/web-ports/bendy-and-the-ink-machine) - Ports by [98Corbins](https://98cornbin.netlify.app), [crackers](https://github.com/woahhcrackers) and [slant](https://github.com/slqntdevss)
+- [BERGENTRUCK 201x](https://github.com/genizy/web-port/tree/main/bergentruck) - Ported by [bread](https://github.com/genizy)
+- [BLOODMONEY!](https://github.com/genizy/web-port/tree/main/bloodmoney) - Ported by [bread](https://github.com/genizy)
+- [boil Noodles at Night](https://github.com/SomeRandomFella/portsandrips/tree/master/boilnoodles) - port by [sexyplankton/SomeRandomFella](https://github.com/SomeRandomFella)
+- [Buckshot Roulette](https://github.com/genizy/web-port/tree/main/buckshot-roulette) - Ported by [bread](https://github.com/genizy)
+- [Brotato](https://github.com/BlueGameMC/BrotatoWeb), [2](https://github.com/gays-studio/brotato-webport/), [3](https://github.com/wowdabug/s1/tree/main/brotato) - ported by [BlueGameMC](https://github.com/BlueGameMC)
+- [Capuchin](https://github.com/aukak/Capuchin) - port by [bog/aukak](https://github.com/aukak)
+- [Chasing Tails ~A Promise in the Snow~ ](https://github.com/gays-studio/chasingtails) - port by [aj](https://github.com/ajtabjs)
+- [Cheese Rollers](https://github.com/SomeRandomFella/portsandrips/tree/master/CheeseRollingWeb) - port by [sexyplankton/SomeRandomFella](https://github.com/SomeRandomFella)
+- [Christmas Massacre](https://github.com/web-ports/christmas-massacre) - port by [98corbins](https://98cornbin.netlify.app)
+- [Class of '09](https://github.com/genizy/web-port/tree/main/class-of-09) - Ported by [bread](https://github.com/genizy)
+- [Clover Pit](https://github.com/web-ports/clover-pit) - port by [bread](https://github.com/genizy)
+- [Counter Strike & Half Life](https://github.com/x8BitRain/webXash/), [2](https://github.com/Pixelsuft/hl) - port by [x8BitRain](https://github.com/x8BitRain)
+- [Cuphead](https://github.com/web-ports/cuphead/), [2](https://github.com/woahhcrackers/CupheadWeb) - Ported by [bread](https://github.com/genizy), Decomp by [SpanishFreddy](https://github.com/spanishfreddy) and [koi/_flixel](https://oldgrounds.xyz/)
+- [Celeste](https://github.com/MercuryWorkshop/celeste-wasm), [2](https://github.com/web-ports/celeste) - port by [Mercury Workshop](https://github.com/MercuryWorkshop), modified by [bread](https://github.com/genizy)
+- [Celeste 3D](https://github.com/gays-studio/celeste3d) - port by [aj](https://github.com/ajtabjs)
+- [Cruelty Squad](https://github.com/imt00dizzy/cruelty-squad) - port by [dizzy](https://github.com/imt00dizzy)
+- [Dead Plate](https://github.com/genizy/web-port/tree/main/dead-plate) - Ported by [bread](https://github.com/genizy)
+- [Deadseat](https://github.com/genizy/web-port/tree/main/deadseat) - Ported by [slqnt](https://github.com/slqntdevss)
+- [Dawnfolk](https://github.com/degloved-net/dawnfolk) - port by [cirsius](https://github.com/cirsius)
+- [Deltarune Chapters 1-4](https://aukak.itch.io/deltarune) - Ported by [bread](https://github.com/genizy), Archived by [bog/aukak](https://github.com/aukak)
+- [Dice a Million](https://github.com/NotRexed/Unblocked-Games/tree/main/diceamillion) - port by [NotRexed](https://github.com/NotRexed)
+- [Dictators:No Peace Countryballs](https://github.com/web-ports/countryballsdictator) - port by [bread](https://github.com/genizy)
+- [Doki Doki Literature Club](https://github.com/EmeraldGreenR/EmeraldGreenR.github.io) - Ported by [EmeraldGreenR](https://github.com/EmeraldGreenR/)? 
+- [Doki Doki Literature Club Plus!](https://selenite.cc/resources/semag/ddlcplus/index.html) - port by [sky](https://github.com/skysthelimitt)
+- [Do NOT Take This Cat Home](https://github.com/genizy/web-port/tree/main/donottakethiscathome) - Ported by [bread](https://github.com/genizy)
+- [Doom Engine](https://github.com/GMH-Code/Dwasm) - port by [GMH-Code](https://github.com/GMH-Code)
+- [Doom 3](https://github.com/web-ports/doom-3), [original](https://github.com/gabrielcuvillier/d3wasm) - Ported by [98corbins](https://98cornbin.netlify.app), [gabrielcuvillier](https://github.com/gabrielcuvillier)
+- [Dude Simulator](https://dude-simulator-webgl.netlify.app/) - port by carter
+- [Dude Simulator 2](https://dude-sim-2-webgl-ported-by-carteryes.netlify.app/ ) - port by carter
+- [Duck Life Adventure](https://github.com/aukak/duck-life-adventure), [2](https://github.com/web-ports/duck-8) - Ported by [bog/aukak](github.com/aukak)
+- [Dumb Ways to Die (v1.6)](https://github.com/web-ports/dumb-ways-to-die) - port by [bread](https://github.com/genizy)
+- [Fear and Hunger](https://github.com/web-ports/fear-and-hunger) - port by [bread](https://github.com/genizy)
+- [Fear and Hunger 2](https://github.com/web-ports/fear-and-hunger-2) - port by [bread](https://github.com/genizy)
+- [Fears to Fathom: Home Alone](https://github.com/slqntdevss/FTFHAPort) - Ported by [slqnt](https://github.com/slqntdevss)
+- [fish](https://github.com/web-ports/fish) - port by [bread](https://github.com/genizy)
+- [FNAF](https://github.com/genizy/web-port/tree/main/fnaf) - Ported by [irv77](https://github.com/irv77)
+- [Five Nights at Candy's 1](https://github.com/web-ports/fnac/tree/main/1) - Ported by [breadbb](https://gn-math.dev)
+- [Five Nights at Candy's 2](https://github.com/web-ports/fnac/tree/main/2) - Ported by [breadbb](https://github.com/genizy)
+- [Five Nighs at Epstein's](https://github.com/web-ports/fnae) - port by @q8j.__ on discord, fixed by [bread](https://github.com/genizy)
+- [Five Nights at Freddy's 1](https://github.com/irv77/hd_fnaf/tree/main/1) - Ported by [irv77](https://github.com/irv77)
+- [Five Nights at Freddy's 2](https://github.com/irv77/hd_fnaf/tree/main/2) - Ported by [irv77](https://github.com/irv77)
+- [Five Nights at Freddy's 3](https://github.com/irv77/hd_fnaf/tree/main/3) - Ported by [irv77](https://github.com/irv77)
+- [Five Nights at Freddy's 4](https://github.com/irv77/hd_fnaf/tree/main/4) - Ported by [irv77](https://github.com/irv77)
+- [Five Nights at Freddy's: Pizzeria Simulator](https://github.com/irv77/hd_fnaf/tree/main/ps) - Ported by [irv77](https://github.com/irv77) and [breadbb](https://gn-math.dev)
+- [Five Nights at Freddy's Sister Location](https://github.com/irv77/hd_fnaf/tree/main/sl) - Ported by [irv77](https://github.com/irv77) and [breadbb](https://gn-math.dev)
+- [Five Nights at Freddy's Ultimate Custom Night](https://github.com/irv77/hd_fnaf/tree/main/ucn) - Ported by [irv77](https://github.com/irv77)
+- [Five Nights at Freddy's World](https://github.com/irv77/hd_fnaf/tree/main/w) - Ported by [irv77](https://github.com/irv77)
+- [Five Nights at Freddy's World: Refreshed](https://github.com/web-ports/fnaf-world-refreshed) - port by [Willowy](https://squall.cc)
+- [Flying Gorilla](https://github.com/web-ports/flying-gorilla) - port by [98corbins](https://98cornbin.netlify.app/)
+- [Gabriel's Awesome Schoolhouse](https://github.com/web-ports/gash) - port by [bread](https://github.com/genizy)
+- [Getting Over It](https://github.com/genizy/web-port/tree/main/getting-over-it) - Ported by [slqnt](https://github.com/slqntdevss)
+- [Gorilla Tag](https://github.com/web-ports/gorilla-tag), [2](https://github.com/aukak/gorrila-tag) - port by [boolonx dot com](https://boolonx.com/)
+- [Granny](https://github.com/web-ports/granny),[2](https://github.com/aukak/Granny), [3](https://github.com/woahhcrackers/GrannyWeb) - ports by [bread](https://github.com/genizy), [bog/aukak](https://github.com/aukak), crackers
+- [GTA Vice City](https://github.com/Lolendor/reVCDOS) - port by the [DOS.Zone team](dos.zone/reVCDOS)
+- [Happy Sheepies](https://github.com/genizy/web-port/tree/main/happy-sheepies) - Ported by [bread](https://github.com/genizy)
+- [HAYAI](https://github.com/degloved-net/HAYAI) - port by [cirsius](https://github.com/cirsius)
+- [Helltaker](https://github.com/wasm-rip/HellTaker-Web/tree/main) - port by [shayder](https://github.com/shayderrr)
+- [Hotline Miami](https://github.com/genizy/web-port/tree/main/hotline-miami) - Ported by [98Corbins](https://98cornbin.netlify.app)
+- [Hollow Knight](https://github.com/aukak/hollow-knight) - port by [bog/aukak](https://github.com/aukak)
+- [Hollow Knight: Silksong](https://github.com/web-ports/hollow-knight-silksong), [2](https://github.com/webporting/Hollow-Knight-Silksong)
+- [Inscryption](https://github.com/Reeyuki/InscryptionWebport) - port by [reeyuki](https://reeyuki.nekoweb.org/)
+- [Iron Lung](https://github.com/web-ports/iron-lung) - port by [98Corbins](https://98cornbin.netlify.app)
+- [I Spoke to God](https://github.com/degloved-net/i-spoke-to-god) - port by [gurtmuncher](https://github.com/gurtmuncher)
+- [Jelly Drift](https://github.com/genizy/web-port/tree/main/jelly-drift) - port by [bread](https://github.com/genizy)
+- [JENNY](https://github.com/MRVAPORWAVE25/JennyGameFiles) - ported by [NotDaniel](https://github.com/MRVAPORWAVE25)
+- [Karlson](https://github.com/genizy/web-port/tree/main/karlson) - port by [NPA](https://github.com/National-Porting-Association)
+- [Kill the Ice Age Baby Adventure 2](https://github.com/SomeRandomFella/kill-ice-age-baby-adventure-2-) - port by [sexyplankton/SomeRandomFella](https://github.com/SomeRandomFella)
+- [Kindergarten 1 & 2](https://github.com/genizy/web-port/tree/main/kindergarten) - Ported by [bread](https://github.com/genizy)
+- [Kindergarten 3](https://github.com/slqntdevss/Kindergarten3Port) - Ported by [slqnt](https://github.com/slqntdevss)
+- [Klifur](https://github.com/aukak/klifur) - port by [bog/aukak](https://github.com/aukak)
+- [Lacey's Flash Games](https://github.com/genizy/web-port/tree/main/laceys-flash-games) - Ported by [bread](https://github.com/genizy)
+- [Lethal Ape](https://github.com/web-ports/lethal-ape) - port by [98Corbins](https://98cornbin.netlify.app)
+- [Marble Blast Gold & Marble Blast Platinum](https://github.com/Vanilagy/MarbleBlast) - port by [Vanilagy](https://github.com/Vanilagy)
+- [Milk inside a bag of milk inside a bag of milk](https://github.com/web-ports/milk-bag-games/tree/main/inside) - ported by [sky](https://github.com/skysthelimitt)
+- [Milk outside a bag of milk outside a bag of milk](https://github.com/web-ports/milk-bag-games/tree/main/outside) - ported by [sky](https://github.com/skysthelimitt)
+- [Milkman Karlson](https://github.com/aukak/gameports/tree/main/milkman%20karlson) - Ported by [bog/aukak](https://github.com/aukak)
+- [MiSide](https://github.com/woahhcrackers/MiSideWeb) - ported by [crackers](https://github.com/woahhcrackers)
+- [My Dictator Stalin Can't Be This Cute ?!](https://github.com/degloved-net/my-dictator-stalin-cant-be-this-cute) - port by [cirsius](https://github.com/cirsius)
+- [My Femboy Roommate](http://github.com/gays-studio/mfr-webport) - ported by [aj](https://github.com/ajtabjs) 
+- [Needy Streamer Overload](https://github.com/web-ports/needy-streamer-overload) - port by [edurocks](https://edurocks.org)
+- [Nodebuster](https://github.com/degloved-net/nodebuster) - port by [cirsius](https://github.com/cirsius)
+- [Nothing](https://github.com/gays-studio/nothing-wasm-web),[2](https://github.com/googoogoob/NothingWebPort) - ported by [aj](https://github.com/ajtabjs)
+- [OMORI](https://github.com/genizy/web-port/tree/main/omori-fixed) - Ported by [bread](https://github.com/genizy)
+- Oneshot (Legacy) - ported by arandomperson
+- [Oneshot: World Machine Edition](https://github.com/MercuryWorkshop/webshot) - ported by [Mercury Workshop](https://github.com/MercuryWorkshop)
+- [Peaks of Yore](https://github.com/web-ports/peaks-of-yore) - port by [bread](https://github.com/genizy)
+- [People Playground](https://github.com/bubbls/ugss/tree/main/people-playground), [original port](https://github.com/genizy/web-port/tree/main/people-playground) - Ported by [98Corbins](https://98cornbin.netlify.app), updated to latest ver by [bog/aukak](https://github.com/aukak)
+- [Pizza Tower](https://github.com/genizy/web-port/tree/main/pizza-tower) - Ported by [burnedpopcorn](https://github.com/burnedpopcorn)
+- [Plants vs Zombies: GOTY Edition](https://github.com/wszqkzqk/PvZ-Portable) - ported by [Zhou Qiankang](https://github.com/wszqkzqk)
+- [Plants vs Zombies: Fusion](https://github.com/gays-studio/pvzfusion) - port by [aj](https://github.com/ajtabjs)
+- [Promises to Keep](https://gitea.mcalec.dev/mcalec/ptk) - port by [mcalec](https://mcalec.dev/)
+- [Portal](https://github.com/weliveinhell/source-engine) - ported by [weliveinhell](https://github.com/weliveinhell)
+- [Power Hover](https://github.com/web-ports/power-hover)
+- [Quake](https://github.com/GMH-Code/Qwasm) - port by [GMH-Code](https://github.com/GMH-Code)
+- [Quake 2](https://github.com/GMH-Code/Qwasm2) - port by [GMH-Code](https://github.com/GMH-Code)
+- [RAFT](https://github.com/genizy/web-port/tree/main/raft) - Ported by Ashen Arrow
+- [R.E.P.O](https://github.com/genizy/web-port/tree/main/repo) - Ported by [98Corbins](https://98cornbin.netlify.app)
+- [RE:RUN](https://github.com/aukak/RE-RUN) - ported by [bog/aukak](https://github.com/aukak)
+- [Running Fred](https://github.com/aukak/running-fred) - port by [bog/aukak](https://github.com/aukak)
+- [Saihate Station](https://github.com/web-ports/saihate-station)
+- [Scoutdingo](https://github.com/web-ports/scoutdingo) - port by [burnedpopcorn](https://github.com/burnedpopcorn)
+- [Shift at Midnight](https://github.com/webporting/Shift-At-Midnight) - ported by the [slqnt](https://github.com/slqntdevss)
+- [Slender: The Eight Pages](https://github.com/genizy/web-port/tree/main/slender) - Ported by [bread](https://github.com/genizy)
+- [Slime Ranchers](https://github.com/web-ports/slime-ranchers) - port by [snubby](https://snubby.top)
+- [Something](https://github.com/gays-studio/nothing-wasm-web), [2](https://github.com/googoogoob/SomethingWebPort) - ported by [aj](https://github.com/ajtabjs)
+- [Sonic CD](https://github.com/TWS2401/Sonic-CD-WASM) - port by [TWS2401](https://github.com/TWS2401)
+- [Sonic the Hedgehog (2013)](https://github.com/VinMannie/Sonic-1-WASM) - ported by [MattConn](github.com/MattConn), updated by [VinMannie](https://github.com/VinMannie)
+- [Sonic the Hedgehog 2](https://github.com/VinMannie/Sonic-2-WASM) - ported by [MattConn](github.com/MattConn), updated by [VinMannie](https://github.com/VinMannie)
+- [Sonic Mania](https://github.com/VinMannie/SonicManiaWeb) - ported by [VinMannie](https://github.com/VinMannie)
+- [Sonic Robo Blast 2](https://github.com/chromaticpipe/SRB2-WASM) - ported by [chromaticpipe](https://github.com/chromaticpipe)
+- [Speed Stars](https://github.com/genizy/web-port/tree/main/speed-stars) - Ported by [98Corbins](https://98cornbin.netlify.app)
+- [S.P.L.I.T](https://github.com/degloved-net/s.p.l.i.t) - port by [gurtmuncher](https://github.com/gurtmuncher)
+- [Stardew Valley](https://github.com/degloved-net/stardew-wasm) - port by [cirsius](https://github.com/Cirsius)
+- [SRB2 Kart](https://github.com/skyleite/Kart-Public-WASM/) - ported by [skyleite](https://github.com/skyleite)
+- [Super Mario 64 FPS](https://github.com/gays-studio/sm64fps-port) - ported by [aj](https://github.com/ajtabjs)
+- [Sunky's Schoolhouse](https://github.com/gays-studio/sunkys-schoolhouse-webport) - ported by [aj](https://github.com/ajtabjs)
+- [Super Monkey Ball](https://monkeyball-online.pages.dev/) - ported by [Twilight](https://ko-fi.com/twilightpb)
+- [Taiko no Tatsujin](https://cjdgrevival.com/)
+- [Terraria](http://github.com/mercuryWorkshop/terraria-wasm), [2](https://github.com/web-ports/terraria) - ported by mercuryworkshop, modified by [bread](https://github.com/genizy)
+- [That's Not My Neighbor](https://github.com/genizy/web-port/tree/main/thats-not-my-neighbor) - Ported by [bread](https://github.com/genizy)
+- [The Man From the Window](https://github.com/genizy/web-port/tree/main/the-man-in-the-window) - Ported by [bread](https://github.com/genizy)
+- [The Man From the Window 2](https://github.com/wasm-rip/the-man-from-the-window-2-web) - port by dude
+- [Touhou Mother](https://github.com/aukak/gameports/tree/main/touhou%20mother) - Ported by [bog/aukak](https://github.com/aukak)
+- [Traffic Racer](https://github.com/genizy/traffic-racer) - port by [bread](https://github.com/genizy)
+- [TriZon](https://github.com/degloved-net/trizon) - port by [cirsius](https://github.com/cirsius)
+- [Ultrakill Prelude](https://github.com/genizy/web-port/tree/main/ultrakill) - Ported by [98Corbins](https://98cornbin.netlify.app)
+- [Ultrapool](https://github.com/ParrrotVR/ultrapoolwebport), [bread fork](https://github.com/genizy/ultrapoolwebport-nothreads) - port by [ParrrotVR](https://github.com/ParrrotVR), fixed by [bread](https://github.com/genizy)
+- [Undertale](https://github.com/genizy/web-port/tree/main/undertale) - Ported by [burnedpopcorn](https://github.com/burnedpopcorn)
+- [Undertale Yellow](https://github.com/genizy/web-port/tree/main/undertale-yellow) - Ported by [burnedpopcorn](https://github.com/burnedpopcorn)
+- [Unreal Gold](https://github.com/National-Porting-Association/unrealgold-emscripten) - ported by Ashen Arrow
+- [Untitled Goose Game](https://github.com/web-ports/untitled-goose-game), [2](https://github.com/webporting/Untitled-Goose-Game) - port by [bog/aukak](https://github.com/aukak)
+- [Upload Labs](https://github.com/googoogoob/UploadLabsWebPort) - port by [thecheetoman](https://github.com/thecheetoman)
+- [Upstream](https://github.com/degloved-net/upstream) - port by [gurtmuncher](https://github.com/gurtmuncher)
+- [Void Whispers](https://github.com/degloved-net/void-whispers) - port by [cirsius](https://github.com/cirsius)
+- [Webfishing](https://github.com/genizy/web-port/tree/main/web-fishing) - Ported by [bread](https://github.com/genizy)
+- [Who's Your Daddy?](https://github.com/Reeyuki/daddygame), [2](https://github.com/web-ports/daddygame) - port by [reeyuki](https://reeyuki.nekoweb.org/)
+- [Witch's Heart](https://github.com/genizy/web-port/tree/main/witch-heart) - port by [bread](https://github.com/genizy)
+- [Xash3D](https://github.com/btarg/Xash3D-Emscripten) - port by mittorn
+- [Youtubers Life OMG!](https://reeyuki-ytlife.netlify.app/) - port by [reeyuki](https://reeyuki.nekoweb.org/)
+- [You Want Half a Mounds Bar](https://github.com/wasm-rip/You-Want-Half-A-Mounds-Bar-Web) - port by dude
+- [Your Only Move is Hustle](https://github.com/webporting/Your-Only-Move-Is-HUSTLE), [2](https://github.com/web-ports/yomi-hustle) - port by [bog/aukak](https://github.com/aukak)
+- [Yume Nikki](https://github.com/genizy/web-port/tree/main/yume-nikki) - Ported by [bread](https://github.com/genizy)
+
+<!-- # decomps
+[Muck](https://github.com/sodiboo/Muck) - decomp by [sodiboo](https://github.com/sodiboo) -->
+<!--[Granny 1.2](https://github.com/BasHeemskerk/Granny-Decompiled) - decomp by BasHeemskerk -->
+<!-- [Granny 1.8](https://github.com/Endlad7373/Granny-1.8_decompiled) - decomp by endlad7373 -->
+<!-- [Stardew Valley](https://github.com/veywrn/StardewValley) - decomp by veywrn -->
+<!-- [Stardew Valley 1.6](https://github.com/Dannode36/StardewValleyDecompiled) - decomp by Dannode36 -->
+<!-- [Omori](https://github.com/Escartem/OmoriSource) -->
+<!-- [World of Tanks](https://github.com/StranikS-Scan/WorldOfTanks-Decompiled) - decomp by StranikS-Scan -->
+<!-- [Terraria 1.4.0.5](https://github.com/AliceSavard/Terarria1405) - decomp by AliceSavard -->
+<!-- [Yandere Simulator C# Scripts](https://github.com/LordEnma/YandereSimulatorDecompiled) - decomp by LordEnma -->
+<!-- [MiSide Demo](https://github.com/yenichw/MiSide-Demo-Unity-Project) - decomp by yenichw -->
+<!-- [Cut The Rope Windows](https://github.com/CtRHome/CutTheRope-WindowsDecomp) - decomp by CtRHome -->
+<!-- [Terraria XB360](https://github.com/PPrism/TerrariaOGC), [2](https://github.com/dptug/TerrariaXDK) - decomp by PPRism, dptug -->
+
+<!--
+all by slqnt
+- Bowerwhelm
+- Dressing Room
+- To The Core
+- GO TO BED
+- Egg Fried Rice
+- Pretend it's not there
+- Stick With It
+-->
+
+## Credits:
+- [breadbb/genizy](https://github.com/genizy)
+- [98Corbins](https://98cornbin.netlify.app)
+- [bog/aukak](https://github.com/aukak)
+- [burnedpopcorn](https://github.com/burnedpopcorn)
+- [irv77](https://github.com/irv77)
+- [koi/_flixel](https://oldgrounds.xyz/)
+- [slqnt](https://github.com/slqntdevss)
+- [sodiboo](https://github.com/sodiboo)
+- [SpanishFreddy](https://github.com/spanishfreddy)
+- [Mercury Workshop](https://github.com/MercuryWorkshop)
+- [national porting association](https://github.com/National-Porting-Association)
+- [sky](https://github.com/skysthelimitt) at selenite.cc
+- [GMH-Code](https://github.com/GMH-Code)
+- [MattConn](https://github.com/MattConn)
+- [VinMannie](https://github.com/VinMannie)
+- [chromaticpipe](https://github.com/chromaticpipe)
+- [skyleite](https://github.com/skyleite)
+- [BlueGameMC](https://github.com/BlueGameMC)
+- [gays dot' studio](https://github.com/gays-studio)
+- [Vanilagy](https://github.com/Vanilagy)
+- [TWS2401](https://github.com/TWS2401)
+- [wasm.rip](https://wasm.rip)

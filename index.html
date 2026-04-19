@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MathGamesRN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg:       #060d1a;
+      --bg2:      #0b1628;
+      --bg3:      #0f1f38;
+      --card:     #0d1a2e;
+      --border:   #1a3a5c;
+      --neon:     #3ab4ff;
+      --neon2:    #00d4ff;
+      --neon-dim: rgba(58, 180, 255, 0.15);
+      --text:     #c8dff5;
+      --text-dim: #5a7a9a;
+      --white:    #e8f4ff;
+      --tag-bg:   rgba(58,180,255,0.12);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Exo 2', sans-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ── BACKGROUND GRID ── */
+    body::before {
+      content: '';
+      position: fixed; inset: 0; z-index: 0;
+      background-image:
+        linear-gradient(rgba(58,180,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(58,180,255,0.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+    }
+
+    /* ── HEADER ── */
+    header {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(6,13,26,0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 64px;
+    }
+
+    .logo {
+      display: flex; align-items: center; gap: 12px;
+      text-decoration: none;
+    }
+    .logo img {
+      height: 42px; width: 42px;
+      border-radius: 8px;
+      filter: drop-shadow(0 0 8px rgba(58,180,255,0.6));
+    }
+    .logo-text {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1.5rem; font-weight: 700;
+      color: var(--white);
+      letter-spacing: 0.04em;
+    }
+    .logo-text span { color: var(--neon); }
+
+    nav { display: flex; gap: 0.25rem; }
+    nav a {
+      color: var(--text-dim);
+      text-decoration: none;
+      font-size: 0.85rem; font-weight: 500; letter-spacing: 0.05em;
+      padding: 6px 14px; border-radius: 6px;
+      transition: color 0.2s, background 0.2s;
+      text-transform: uppercase;
+    }
+    nav a:hover { color: var(--neon); background: var(--neon-dim); }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative; z-index: 1;
+      padding: 5rem 2rem 3rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      font-weight: 700; color: var(--white);
+      line-height: 1.1; letter-spacing: 0.02em;
+    }
+    .hero h1 em { font-style: normal; color: var(--neon); }
+    .hero p {
+      margin: 1rem auto 0;
+      max-width: 480px;
+      color: var(--text-dim);
+      font-size: 1rem; line-height: 1.6;
+    }
+
+    /* ── SEARCH + FILTERS ── */
+    .controls {
+      position: relative; z-index: 1;
+      max-width: 900px; margin: 2rem auto 0;
+      padding: 0 2rem;
+      display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;
+    }
+
+    .search-wrap {
+      flex: 1; min-width: 220px;
+      position: relative;
+    }
+    .search-wrap svg {
+      position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+      color: var(--text-dim); pointer-events: none;
+      width: 16px; height: 16px;
+    }
+    #search {
+      width: 100%; padding: 10px 14px 10px 40px;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 8px; color: var(--white);
+      font-family: 'Exo 2', sans-serif; font-size: 0.9rem;
+      outline: none; transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    #search:focus { border-color: var(--neon); box-shadow: 0 0 0 3px var(--neon-dim); }
+    #search::placeholder { color: var(--text-dim); }
+
+    .filter-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .tag-btn {
+      padding: 6px 14px; border-radius: 20px;
+      border: 1px solid var(--border);
+      background: var(--card); color: var(--text-dim);
+      font-family: 'Exo 2', sans-serif; font-size: 0.78rem;
+      font-weight: 500; letter-spacing: 0.04em;
+      cursor: pointer; transition: all 0.2s;
+      text-transform: uppercase;
+    }
+    .tag-btn:hover { border-color: var(--neon); color: var(--neon); }
+    .tag-btn.active {
+      border-color: var(--neon); background: var(--neon-dim);
+      color: var(--neon);
+    }
+
+    .sort-select {
+      padding: 8px 12px;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 8px; color: var(--text);
+      font-family: 'Exo 2', sans-serif; font-size: 0.85rem;
+      outline: none; cursor: pointer;
+    }
+    .sort-select:focus { border-color: var(--neon); }
+
+    /* ── STATS BAR ── */
+    .stats-bar {
+      position: relative; z-index: 1;
+      max-width: 900px; margin: 1.5rem auto 0;
+      padding: 0 2rem;
+      color: var(--text-dim); font-size: 0.82rem;
+    }
+    #game-count { color: var(--neon); font-weight: 600; }
+
+    /* ── GAME GRID ── */
+    #game-grid {
+      position: relative; z-index: 1;
+      max-width: 900px; margin: 1.5rem auto 4rem;
+      padding: 0 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1.25rem;
+    }
+
+    /* ── GAME CARD ── */
+    .game-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+      display: flex; flex-direction: column;
+      text-decoration: none;
+    }
+    .game-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--neon);
+      box-shadow: 0 0 20px rgba(58,180,255,0.18), 0 8px 24px rgba(0,0,0,0.5);
+    }
+
+    .card-thumb {
+      width: 100%; aspect-ratio: 16/10;
+      background: var(--bg3);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 2.8rem;
+      position: relative; overflow: hidden;
+    }
+    .card-thumb::after {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(to bottom, transparent 50%, rgba(6,13,26,0.7));
+    }
+    .card-thumb img {
+      width: 100%; height: 100%;
+      object-fit: cover; display: block;
+    }
+
+    .card-body {
+      padding: 12px 14px 14px;
+      flex: 1; display: flex; flex-direction: column; gap: 6px;
+    }
+    .card-title {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1rem; font-weight: 600;
+      color: var(--white); line-height: 1.2;
+    }
+    .card-meta {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-top: auto;
+    }
+    .card-cat {
+      font-size: 0.7rem; font-weight: 500; letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: var(--tag-bg); color: var(--neon);
+      border: 1px solid rgba(58,180,255,0.2);
+      padding: 2px 8px; border-radius: 4px;
+    }
+    .card-rating {
+      font-size: 0.78rem; color: #f5c518;
+      letter-spacing: 0.02em;
+    }
+    .card-desc {
+      font-size: 0.78rem; color: var(--text-dim);
+      line-height: 1.4;
+      display: -webkit-box;
+      -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* ── EMPTY STATE ── */
+    .empty-state {
+      grid-column: 1/-1;
+      text-align: center; padding: 4rem 1rem;
+      color: var(--text-dim);
+    }
+    .empty-state .icon { font-size: 3rem; margin-bottom: 1rem; }
+    .empty-state h3 { font-family: 'Rajdhani', sans-serif; color: var(--text); font-size: 1.3rem; }
+
+    /* ── FOOTER ── */
+    footer {
+      position: relative; z-index: 1;
+      border-top: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      text-align: center;
+      color: var(--text-dim); font-size: 0.8rem;
+    }
+    footer span { color: var(--neon); }
+
+    /* ── SCROLL TO TOP ── */
+    #scroll-top {
+      position: fixed; bottom: 2rem; right: 2rem; z-index: 200;
+      width: 40px; height: 40px;
+      background: var(--neon-dim); border: 1px solid var(--neon);
+      border-radius: 8px; color: var(--neon);
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; opacity: 0; pointer-events: none;
+      transition: opacity 0.3s;
+      font-size: 1.1rem;
+    }
+    #scroll-top.visible { opacity: 1; pointer-events: all; }
+
+    @media (max-width: 600px) {
+      header { padding: 0 1rem; }
+      nav { display: none; }
+      #game-grid { padding: 0 1rem; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+      .controls { padding: 0 1rem; }
+    }
+  </style>
+  <link rel="icon" href="logo.png">
+</head>
+<body>
+
+<header>
+  <a class="logo" href="#">
+    <img src="logo.png" alt="MathGamesRN logo" onerror="this.style.display='none'" />
+    <span class="logo-text">MATH<span>GAMES</span>RN</span>
+  </a>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">New</a>
+    <a href="#">Top Rated</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Play. <em>Learn.</em> Level Up.</h1>
+  <p>Free math games for every skill level. Fast, fun, and designed to keep your brain sharp.</p>
+</section>
+
+<div class="controls">
+  <div class="search-wrap">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input id="search" type="search" placeholder="Search games…" autocomplete="off" />
+  </div>
+  <div class="filter-tags" id="filter-tags">
+    <button class="tag-btn active" data-cat="all">All</button>
+  </div>
+  <select class="sort-select" id="sort-select">
+    <option value="default">Sort: Default</option>
+    <option value="name">Name A–Z</option>
+    <option value="rating">Top Rated</option>
+    <option value="newest">Newest</option>
+  </select>
+</div>
+
+<div class="stats-bar">
+  Showing <span id="game-count">0</span> games
+</div>
+
+<div id="game-grid"></div>
+
+<footer>
+  © 2025 <span>MathGamesRN</span> · Built for learners everywhere
+</footer>
+
+<button id="scroll-top" title="Back to top">↑</button>
+
+<!-- ══════════════════════════════════════════
+     GAMES DATA  –  edit games.js to add games
+════════════════════════════════════════════ -->
+<script src="games.js"></script>
+
+<script>
+// ── RENDER ENGINE ──────────────────────────────────────────────
+(function () {
+  const grid      = document.getElementById('game-grid');
+  const searchEl  = document.getElementById('search');
+  const sortEl    = document.getElementById('sort-select');
+  const countEl   = document.getElementById('game-count');
+  const tagsWrap  = document.getElementById('filter-tags');
+  const scrollBtn = document.getElementById('scroll-top');
+
+  let activeCategory = 'all';
+  let searchQuery    = '';
+  let sortMode       = 'default';
+
+  // Build category filter buttons from game data
+  const categories = ['all', ...new Set(GAMES.map(g => g.category))].filter(Boolean);
+  tagsWrap.innerHTML = '';
+  categories.forEach(cat => {
+    const btn = document.createElement('button');
+    btn.className = 'tag-btn' + (cat === 'all' ? ' active' : '');
+    btn.dataset.cat = cat;
+    btn.textContent = cat === 'all' ? 'All' : cat;
+    btn.addEventListener('click', () => {
+      activeCategory = cat;
+      document.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      render();
+    });
+    tagsWrap.appendChild(btn);
+  });
+
+  function matchesSearch(game) {
+    const q = searchQuery.toLowerCase();
+    return !q ||
+      game.title.toLowerCase().includes(q) ||
+      (game.description || '').toLowerCase().includes(q) ||
+      (game.category || '').toLowerCase().includes(q);
+  }
+
+  function getFiltered() {
+    let list = GAMES.filter(g =>
+      (activeCategory === 'all' || g.category === activeCategory) &&
+      matchesSearch(g)
+    );
+    if (sortMode === 'name')   list = [...list].sort((a,b) => a.title.localeCompare(b.title));
+    if (sortMode === 'rating') list = [...list].sort((a,b) => (b.rating||0) - (a.rating||0));
+    if (sortMode === 'newest') list = [...list].sort((a,b) => (b.id||0) - (a.id||0));
+    return list;
+  }
+
+  function starString(rating) {
+    if (!rating) return '';
+    const full = Math.round(rating);
+    return '★'.repeat(full) + '☆'.repeat(5 - full);
+  }
+
+  function renderCard(game) {
+    const card = document.createElement('a');
+    card.className = 'game-card';
+    card.href = game.url || '#';
+    card.target = '_self';
+
+    const thumb = document.createElement('div');
+    thumb.className = 'card-thumb';
+
+    if (game.thumbnail) {
+      const img = document.createElement('img');
+      img.src = game.thumbnail;
+      img.alt = game.title;
+      img.loading = 'lazy';
+      img.onerror = () => { thumb.innerHTML = game.icon || '🎮'; };
+      thumb.appendChild(img);
+    } else {
+      thumb.textContent = game.icon || '🎮';
+    }
+
+    card.innerHTML += `
+      <div class="card-body">
+        <div class="card-title">${game.title}</div>
+        ${game.description ? `<div class="card-desc">${game.description}</div>` : ''}
+        <div class="card-meta">
+          <span class="card-cat">${game.category || 'Game'}</span>
+          ${game.rating ? `<span class="card-rating">${starString(game.rating)}</span>` : ''}
+        </div>
+      </div>`;
+
+    card.prepend(thumb);
+    return card;
+  }
+
+  // Virtualized / lazy render for performance with 100+ games
+  let renderTimeout;
+  function render() {
+    clearTimeout(renderTimeout);
+    renderTimeout = setTimeout(() => {
+      const filtered = getFiltered();
+      countEl.textContent = filtered.length;
+
+      // Use DocumentFragment for one DOM write
+      const frag = document.createDocumentFragment();
+      if (filtered.length === 0) {
+        const empty = document.createElement('div');
+        empty.className = 'empty-state';
+        empty.innerHTML = '<div class="icon">🔍</div><h3>No games found</h3><p>Try a different search or category.</p>';
+        frag.appendChild(empty);
+      } else {
+        filtered.forEach(g => frag.appendChild(renderCard(g)));
+      }
+
+      grid.innerHTML = '';
+      grid.appendChild(frag);
+    }, 80);
+  }
+
+  searchEl.addEventListener('input', (e) => { searchQuery = e.target.value; render(); });
+  sortEl.addEventListener('change', (e) => { sortMode = e.target.value; render(); });
+
+  // Scroll-to-top button
+  window.addEventListener('scroll', () => {
+    scrollBtn.classList.toggle('visible', window.scrollY > 400);
+  }, { passive: true });
+  scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+  render();
+})();
+</script>
+</body>
+</html>
