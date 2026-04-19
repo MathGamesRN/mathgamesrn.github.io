@@ -1,3 +1,4 @@
-games/
 __pycache__/
 .vscode/
+games/*
+!games/2
